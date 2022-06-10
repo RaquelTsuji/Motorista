@@ -1,0 +1,4 @@
+Os motoristas se preocupam com a quilometragem dos seus automóveis. 
+Um motorista monitorou vários tanques cheios de gasolina registrando a quilometragem dirigida e a quantidade de combustível em litros utilizados para cada tanque cheio. 
+Desenvolva um aplicativo java que receba como entrada os quilômetros dirigidos e os litros de gasolina consumidos (ambos como inteiros) para cada tanque cheio. O programa deve calcular e exibir o consumo em quilômetros/litro para cada tanque cheio e imprimir a quilometragem combinada e a soma total de litros de combustível consumidos até esse ponto. 
+Todos cálculos de média devem produzir resultados de ponto flutuante. Utilizando a classe scanner e repetição controlada por sentinela para obter os dados do usuário.
