@@ -1,0 +1,20 @@
+public class Veículo {
+	private float Consumo;
+	private float TotalQuilômetros;
+	private float TotalCombustível;
+	private float Média;
+	
+	public Veículo(int Quilômetros, int Combustível, int i) {
+		Consumo=Quilômetros/Combustível;
+		System.out.printf("\nConsumo do %sº veículo: %s\n", i, Consumo);
+		
+		TotalQuilômetros=TotalQuilômetros+Quilômetros;
+		System.out.printf("Quilometragem combinada: %s\n", TotalQuilômetros);
+		
+		TotalCombustível=TotalCombustível+Combustível;
+		System.out.printf("Soma total de litros de combustível consumidos: %s\n", TotalCombustível);
+			
+		Média=TotalQuilômetros/TotalCombustível;
+		System.out.printf("Média do consumo: %s\n", Média);
+	}
+}
