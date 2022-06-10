@@ -1,0 +1,24 @@
+import java.util.*;
+public class Programa {
+	public static int Quilômetros;
+	public static int Combustível;
+	public static int i=1;
+	
+	public static void main(String[] args) {
+		while (Quilômetros!=-1 && Combustível!=-1) {
+			Scanner sc=new Scanner(System.in);
+			System.out.print ("Entre com os quilômetros dirigidos ou -1 para sair: ");
+			Quilômetros=sc.nextInt();
+			System.out.print ("Entre com os litros de gasolina consumidos ou -1 para sair: ");
+			Combustível=sc.nextInt();
+			
+			System.out.print("\nInformações inseridas pelo motorista");
+			System.out.printf("\nQuilômetros: %s \nCombustível: %s\n", Quilômetros, Combustível);
+			
+			Veículo Automóvel=new Veículo(Quilômetros, Combustível, i);
+			i=i++;
+			
+			System.out.print ("\n");
+		}
+	}
+}
